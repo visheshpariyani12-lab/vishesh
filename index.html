@@ -1,1 +1,482 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta content="Logophile — Vishesh, Content Writer Portfolio" name="description"/><title>Logophile | Vishesh — Content Writer</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Allura&amp;family=DM+Sans:wght@400;500;700;800&amp;family=Quicksand:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><style>
+:root{--purple:#4b27b8;--purple2:#35158f;--pink:#f52b63;--ink:#0b1240;--muted:#66708c;--bg:#f8f9ff;--white:#fff;--lav:#eeeaff;--border:#e8eaf4;--script:"Allura",cursive;--sans:"DM Sans",sans-serif;--display:"Quicksand",sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.65}a{text-decoration:none;color:inherit}.wrap{width:min(1200px,calc(100% - 44px));margin:auto}
+header{position:sticky;top:0;z-index:100;background:linear-gradient(110deg,var(--purple2),var(--purple));color:#fff;box-shadow:0 5px 25px #1d105522}.nav{min-height:82px;display:flex;align-items:center;justify-content:space-between;gap:25px}.logo{font-family:var(--script);font-size:50px;line-height:1;padding:0 10px 7px 0;position:relative}.logo:after{content:"";position:absolute;left:0;right:0;bottom:0;height:3px;background:var(--pink);border-radius:50%;transform:rotate(-2deg)}.links{display:flex;align-items:center;gap:24px;font-size:13px;font-weight:700}.links a{padding:8px 0;opacity:.95}.links a:hover{color:#ffd5df}.hire{border:1px solid #fff;padding:10px 18px;border-radius:4px}.menu{display:none;background:none;border:0;color:#fff;font-size:28px}
+.hero{overflow:hidden;background:linear-gradient(135deg,#fafaff 0%,#f2efff 100%)}.hero-grid{min-height:620px;display:grid;grid-template-columns:45% 55%;align-items:center}.portrait-box{height:620px;position:relative;display:flex;align-items:flex-end;justify-content:center}.portrait-box:before{content:"";position:absolute;width:460px;height:460px;border-radius:50%;background:#e7defd;left:50%;top:50%;transform:translate(-50%,-42%)}.portrait{position:relative;z-index:2;height:570px;width:auto;max-width:100%;object-fit:contain;object-position:center bottom;filter:drop-shadow(0 20px 25px #17104222)}.scribble{position:absolute;z-index:3;font-family:var(--script);font-size:37px;line-height:1.05;color:var(--ink)}.scribble.left{left:4px;top:105px;transform:rotate(-5deg)}.scribble.right{right:4px;bottom:105px;transform:rotate(-5deg);text-align:left}.scribble i{display:block;color:var(--pink);font-family:var(--sans);font-style:normal;font-size:28px}.hero-copy{padding:30px 30px 30px 45px}.kicker{font-size:13px;letter-spacing:4px;color:var(--purple);font-weight:800;text-transform:uppercase}.hero h1{font-family:var(--display);font-size:64px;line-height:1.03;margin:14px 0 8px;letter-spacing:-2px}.hero h1 span{color:var(--purple)}.hero h2{font-size:39px;line-height:1.15;font-weight:400;margin:0 0 24px}.hero p{font-size:18px;color:var(--muted);max-width:620px}.pink-line{width:58px;height:3px;background:var(--pink);margin:28px 0}.btn{display:inline-block;background:var(--pink);color:#fff;padding:13px 24px;font-weight:800;font-size:13px;letter-spacing:.4px;border-radius:3px;box-shadow:0 10px 24px #f52b6330}.btn.alt{background:transparent;color:var(--purple);border:1px solid var(--purple);box-shadow:none;margin-left:10px}
+section{padding:92px 0}.intro{text-align:center;background:#fff}.section-head{text-align:center;max-width:800px;margin:0 auto 45px}.section-head .kicker{margin-bottom:9px}.section-head h2{font-family:var(--display);font-size:45px;line-height:1.12;margin:0}.section-head h2 span{color:var(--purple)}.section-head p{color:var(--muted);margin:15px auto 0}.intro-copy{max-width:850px;margin:auto;font-size:17px}.intro-copy p{margin:0 0 15px}.divider{width:150px;height:2px;background:linear-gradient(90deg,transparent,var(--pink),transparent);margin:20px auto 30px;position:relative}.divider:after{content:"✦";position:absolute;left:50%;top:50%;transform:translate(-50%,-52%);background:#fff;color:var(--pink);padding:0 12px}
+.work{background:linear-gradient(180deg,#f8f9ff,#f1efff)}.category-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.cat{background:#fff;border:1px solid var(--border);border-radius:14px;padding:25px 20px;min-height:180px;text-align:center;box-shadow:0 8px 25px #17104208;transition:.2s}.cat:hover{transform:translateY(-4px);box-shadow:0 15px 30px #17104212}.icon{font-size:34px;margin-bottom:8px}.cat h3{font-family:var(--display);font-size:21px;margin:0 0 7px}.cat p{font-size:14px;color:var(--muted);margin:0}
+.content-section{background:#fff}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.card{background:#fff;border:1px solid var(--border);border-radius:14px;overflow:hidden;box-shadow:0 10px 30px #1710420a;transition:.2s}.card:hover{transform:translateY(-5px);box-shadow:0 18px 35px #17104214}.thumb{height:190px;background:#eee center/cover no-repeat;position:relative}.thumb:after{content:"";position:absolute;inset:0;background:linear-gradient(135deg,#35158f88,#f52b6340)}.card-body{padding:20px}.tag{font-size:11px;text-transform:uppercase;letter-spacing:1.6px;color:var(--pink);font-weight:800}.card h3{font-family:var(--display);font-size:21px;line-height:1.25;margin:8px 0}.card p{font-size:14px;color:var(--muted);margin:0 0 15px}.read{font-size:13px;font-weight:800;color:var(--purple)}
+.banner{background:linear-gradient(110deg,var(--purple2),var(--purple));color:#fff;text-align:center;padding:70px 20px}.banner h2{font-family:var(--display);font-size:42px;margin:0 0 10px}.banner p{max-width:700px;margin:0 auto 25px;color:#eeeaff}.banner .btn{background:var(--pink)}
+.placeholder{border:1px dashed #b7b0dc;background:#f7f5ff;border-radius:16px;text-align:center;padding:60px 25px;color:var(--muted)}.placeholder h3{font-family:var(--display);font-size:28px;color:var(--ink);margin:0 0 8px}.placeholder p{margin:0}.case .thumb{height:210px}.case .card h3{font-size:20px}
+footer{background:var(--navy);color:#fff;padding:55px 0 25px}.footer-grid{display:grid;grid-template-columns:1.3fr .7fr 1fr;gap:45px}.footer h3,.footer h4{font-family:var(--display);margin:0 0 15px}.footer p,.footer a{color:#dfe1ef;font-size:14px}.footer-links{display:grid;gap:8px}.copyright{border-top:1px solid #ffffff22;margin-top:35px;padding-top:22px;text-align:center;color:#aeb1c4;font-size:13px}
+@media(max-width:1000px){.links{gap:13px}.hero-grid{grid-template-columns:1fr}.portrait-box{height:520px;order:1}.hero-copy{order:2;text-align:center;padding:20px 20px 70px}.hero p{margin-left:auto;margin-right:auto}.pink-line{margin:25px auto}.category-grid{grid-template-columns:repeat(2,1fr)}.cards{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:700px){.links.mobile{display:flex;position:absolute;top:72px;left:0;right:0;background:var(--purple2);padding:18px 20px;flex-direction:column;align-items:flex-start;gap:8px;box-shadow:0 10px 20px #0002}.links.mobile .hire{width:100%;text-align:center}.links.mobile a{width:100%}.wrap{width:min(100% - 30px,1200px)}.nav{min-height:72px}.logo{font-size:43px}.links{display:none}.menu{display:block}.hero h1{font-size:48px}.hero h2{font-size:31px}.portrait-box{height:430px}.portrait{height:410px}.portrait-box:before{width:310px;height:310px}.scribble{font-size:28px}.scribble.left{left:0;top:60px}.scribble.right{right:-2px;bottom:65px}.category-grid,.cards{grid-template-columns:1fr}section{padding:65px 0}.section-head h2{font-size:35px}.thumb{height:200px}.footer-grid{grid-template-columns:1fr;gap:28px}}
 
+.samples-section{background:linear-gradient(180deg,#fff 0%,#f8f9ff 100%)}
+.featured-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:26px;max-width:1000px;margin:0 auto}
+.featured-card,.academic-card{background:#fff;border:1px solid var(--border);border-radius:18px;overflow:hidden;box-shadow:0 12px 34px #1710420d;transition:transform .22s,box-shadow .22s}
+.featured-card:hover,.academic-card:hover{transform:translateY(-5px);box-shadow:0 20px 40px #17104216}
+.sample-cover{height:270px;background:#f1effa;display:flex;align-items:center;justify-content:center;overflow:hidden;padding:14px}
+.sample-cover img{width:100%;height:100%;object-fit:contain}
+.featured-body,.academic-body{padding:24px}
+.featured-body h3,.academic-body h3{font-family:var(--display);font-size:24px;line-height:1.2;margin:8px 0 10px}
+.featured-body p,.academic-body p{font-size:14px;color:var(--muted);margin:0 0 18px}
+.academic-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.academic-cover{height:300px;background:#f3f2f8;display:flex;align-items:center;justify-content:center;overflow:hidden;padding:12px}
+.academic-cover img{width:100%;height:100%;object-fit:contain}
+.academic-body{padding:20px}
+.academic-body h3{font-size:20px}
+@media(max-width:900px){.featured-grid,.academic-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:650px){.featured-grid,.academic-grid{grid-template-columns:1fr}.sample-cover{height:300px}.academic-cover{height:340px}}
+
+/* =========================================================
+   WHITEPAPER SECTION — REFINED LAYOUT
+   ========================================================= */
+.whitepaper-section{
+  background:
+    radial-gradient(circle at 8% 18%, rgba(89,48,190,.055), transparent 28%),
+    radial-gradient(circle at 94% 82%, rgba(245,43,99,.045), transparent 24%),
+    linear-gradient(180deg,#fff 0%,#f8f9ff 100%);
+  overflow:hidden;
+}
+.whitepaper-section .section-head{
+  max-width:760px;
+  margin:0 auto 48px;
+  text-align:center;
+}
+.whitepaper-section .section-head h2{
+  margin:8px 0 10px;
+}
+.whitepaper-list{
+  max-width:1050px;
+  margin:0 auto;
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:28px;
+}
+.whitepaper-card{
+  position:relative;
+  display:grid;
+  grid-template-columns:42% 58%;
+  min-height:470px;
+  background:#fff;
+  border:1px solid #e7e8f2;
+  border-radius:24px;
+  overflow:hidden;
+  box-shadow:0 18px 55px rgba(18,15,62,.09);
+  transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease;
+}
+.whitepaper-card:hover{
+  transform:translateY(-7px);
+  border-color:#d9d3f3;
+  box-shadow:0 28px 70px rgba(18,15,62,.14);
+}
+.whitepaper-visual{
+  position:relative;
+  min-height:470px;
+  padding:30px 20px 30px 24px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:
+    radial-gradient(circle at 50% 28%,rgba(94,61,193,.18),transparent 40%),
+    linear-gradient(145deg,#f0eefb,#f8f7fd 62%,#eceaf8);
+}
+.paper-frame{
+  width:100%;
+  height:365px;
+  padding:13px;
+  background:#fff;
+  border-radius:8px;
+  box-shadow:0 15px 35px rgba(15,12,50,.18);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  transform:rotate(-1.3deg);
+  transition:transform .25s ease;
+}
+.whitepaper-card:nth-child(2) .paper-frame{
+  transform:rotate(1.3deg);
+}
+.whitepaper-card:hover .paper-frame{
+  transform:rotate(0) translateY(-3px);
+}
+.paper-frame img{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  border-radius:2px;
+}
+.paper-badge{
+  position:absolute;
+  left:18px;
+  bottom:18px;
+  padding:7px 10px;
+  border-radius:999px;
+  background:#0b1240;
+  color:#fff;
+  font-size:9px;
+  line-height:1;
+  letter-spacing:2px;
+  font-weight:800;
+}
+.whitepaper-copy{
+  padding:38px 32px 34px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+.whitepaper-copy .tag{
+  margin-bottom:13px;
+  font-size:10px;
+  letter-spacing:2.6px;
+  line-height:1.5;
+  color:#f52b63;
+  font-weight:800;
+}
+.whitepaper-copy h3{
+  margin:0 0 15px;
+  font-family:var(--display);
+  font-size:30px;
+  line-height:1.1;
+  letter-spacing:-.6px;
+  color:#0b1240;
+}
+.wp-lead{
+  margin:0;
+  color:#66708c;
+  font-size:13.5px;
+  line-height:1.75;
+}
+.wp-meta{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+  margin:22px 0 25px;
+  padding:15px 0;
+  border-top:1px solid #ececf4;
+  border-bottom:1px solid #ececf4;
+  color:#737a92;
+  font-size:11px;
+}
+.wp-meta span{
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+}
+.wp-meta b{
+  color:#171b46;
+  font-weight:700;
+}
+.wp-button{
+  align-self:flex-start;
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  padding:12px 17px;
+  border-radius:7px;
+  background:#f52b63;
+  color:#fff;
+  font-size:10px;
+  font-weight:800;
+  letter-spacing:.7px;
+  box-shadow:0 10px 24px rgba(245,43,99,.2);
+  transition:transform .2s ease,background .2s ease;
+}
+.wp-button span{
+  font-size:15px;
+  line-height:0;
+}
+.wp-button:hover{
+  transform:translateY(-2px);
+  background:#df1e55;
+}
+@media(max-width:900px){
+  .whitepaper-list{grid-template-columns:1fr;max-width:760px}
+  .whitepaper-card{grid-template-columns:40% 60%}
+}
+@media(max-width:620px){
+  .whitepaper-list{gap:20px}
+  .whitepaper-card{display:block;min-height:0}
+  .whitepaper-visual{min-height:360px;padding:28px}
+  .paper-frame{height:300px}
+  .whitepaper-copy{padding:28px 25px 30px}
+  .whitepaper-copy h3{font-size:27px}
+  .wp-meta span{justify-content:flex-start;flex-direction:column;gap:2px}
+}
+
+/* WHITEPAPERS — COMPACT PORTFOLIO CARDS */
+.whitepaper-section{
+  background:linear-gradient(180deg,#fbfbff 0%,#f6f5fd 100%);
+  padding:92px 0 100px;
+  overflow:visible;
+}
+.whitepaper-section .section-head{
+  max-width:720px;
+  margin:0 auto 42px;
+  text-align:center;
+}
+.whitepaper-section .section-head h2{margin:8px 0 10px}
+.whitepaper-section .section-head p{margin:0 auto;max-width:620px}
+.whitepaper-list{
+  width:min(1080px,100%);
+  margin:0 auto;
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:24px;
+  align-items:stretch;
+}
+.whitepaper-card{
+  display:grid;
+  grid-template-columns:44% 56%;
+  height:410px;
+  min-height:0;
+  background:#fff;
+  border:1px solid #e5e4ef;
+  border-radius:20px;
+  overflow:hidden;
+  box-shadow:0 12px 34px rgba(18,15,62,.07);
+  transition:transform .22s ease,box-shadow .22s ease;
+}
+.whitepaper-card:hover{
+  transform:translateY(-4px);
+  box-shadow:0 18px 42px rgba(18,15,62,.11);
+}
+.whitepaper-visual{
+  min-height:0;
+  padding:24px 18px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:linear-gradient(145deg,#eeeafd,#f8f7fc);
+}
+.paper-frame{
+  width:100%;
+  height:315px;
+  padding:10px;
+  background:#fff;
+  border-radius:6px;
+  box-shadow:0 12px 25px rgba(15,12,50,.13);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  transform:none!important;
+}
+.paper-frame img{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  border-radius:2px;
+}
+.paper-badge{
+  position:absolute;
+  left:18px;
+  bottom:18px;
+  padding:6px 9px;
+  border-radius:999px;
+  background:#0b1240;
+  color:#fff;
+  font-size:8px;
+  line-height:1;
+  letter-spacing:1.6px;
+  font-weight:800;
+}
+.whitepaper-copy{
+  padding:30px 28px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+.whitepaper-copy .tag{
+  margin-bottom:10px;
+  font-size:9px;
+  letter-spacing:2px;
+  line-height:1.4;
+}
+.whitepaper-copy h3{
+  margin:0 0 12px;
+  font-family:var(--display);
+  font-size:25px;
+  line-height:1.15;
+  color:var(--text);
+}
+.whitepaper-copy p{
+  margin:0 0 15px;
+  color:var(--muted);
+  font-size:13px;
+  line-height:1.55;
+}
+.wp-meta{margin:0 0 18px;padding-top:12px;border-top:1px solid #ecebf4}
+.wp-meta span{display:flex;justify-content:space-between;gap:12px;font-size:10px;color:#77778a}
+.wp-meta strong{color:#171042;font-weight:700}
+.wp-button{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:max-content;
+  padding:11px 15px;
+  border-radius:6px;
+  background:var(--pink);
+  color:#fff;
+  font-size:10px;
+  font-weight:800;
+  letter-spacing:.7px;
+  box-shadow:none;
+}
+.wp-button:hover{background:#df1e55;transform:translateY(-1px)}
+@media(max-width:900px){
+  .whitepaper-list{grid-template-columns:1fr;max-width:720px}
+  .whitepaper-card{height:390px}
+}
+@media(max-width:620px){
+  .whitepaper-section{padding:70px 0 75px}
+  .whitepaper-list{gap:18px}
+  .whitepaper-card{display:block;height:auto}
+  .whitepaper-visual{height:310px;padding:24px}
+  .paper-frame{height:260px;width:230px}
+  .whitepaper-copy{padding:25px 22px 28px}
+  .whitepaper-copy h3{font-size:24px}
+}
+</style><meta content="#7c3aed" name="theme-color"/></head><body>
+<header><div class="wrap nav"><a class="logo" href="#home">Logophile</a><nav class="links"><a href="#home">Home</a><a href="#about">About</a><a href="#portfolio">Portfolio</a><a href="#blogs">Blogs</a><a href="#web-content">Web Content</a><a href="#technical">Technical</a><a href="#articles">Articles</a><a href="#academic">Academic</a><a href="#cases">Case Studies</a><a class="hire" href="#contact">Hire Me</a></nav><button class="menu" onclick="document.querySelector('.links').classList.toggle('mobile')">☰</button></div></header>
+<main>
+<section class="hero" id="home"><div class="wrap hero-grid"><div class="portrait-box"><div class="scribble left">Words<br/>Ideas<br/>Impact<i>╱</i></div><img alt="Vishesh, Content Writer" class="portrait" src="assets/vishesh-hero.png"/><div class="scribble right">Good<br/>Content<br/>Builds<br/>Better<br/>Brands<i>╱</i></div></div><div class="hero-copy"><div class="kicker">Content Writer • Logophile</div><h1>Hi, I’m <span>Vishesh</span></h1><h2>A Content Writer</h2><p>Transforming complex ideas into clear, engaging and purposeful content for brands, businesses and digital audiences.</p><div class="pink-line"></div><a class="btn" href="#portfolio">EXPLORE MY WORK →</a><a class="btn alt" href="#contact">HIRE ME</a></div></div></section>
+<section class="intro" id="about"><div class="wrap"><div class="section-head"><div class="kicker">More Than Just Words</div><h2>I Write to Make a <span>Difference</span></h2><div class="divider"></div></div><div class="intro-copy"><p>I’m Vishesh, a content writer working across blogs, web content, technical writing, articles, whitepapers, academic content and case studies.</p><p>My selected work spans technology, SEO, digital marketing, business, education, e-commerce, Web3 and other industries. I write with attention to clarity, audience intent, brand voice and purpose.</p><p>Take a look through the sections below to see published work by content type.</p></div></div></section>
+<section class="work" id="portfolio"><div class="wrap"><div class="section-head"><div class="kicker">A Glimpse of My Work</div><h2>Content Writing <span>Portfolio</span></h2><p>Click any category to jump straight to the work below.</p></div><div class="category-grid"><a class="cat" href="#blogs"><div class="icon">✍</div><h3>Blogs</h3><p>SEO-friendly, informative and engaging blog writing.</p></a><a class="cat" href="#web-content"><div class="icon">▣</div><h3>Web Content</h3><p>Website pages written around users, services and search intent.</p></a><a class="cat" href="#technical"><div class="icon">⚙</div><h3>Technical Content</h3><p>Complex technology explained in clear language.</p></a><a class="cat" href="#articles"><div class="icon">▤</div><h3>Articles</h3><p>Research-led articles across varied subjects.</p></a><a class="cat" href="#whitepapers"><div class="icon">▥</div><h3>Whitepapers</h3><p>Long-form research and business-focused writing.</p></a><a class="cat" href="#academic"><div class="icon">⌘</div><h3>Academic Content</h3><p>Structured academic work and research writing.</p></a><a class="cat" href="#cases"><div class="icon">▦</div><h3>Case Studies</h3><p>Business stories, project narratives and results.</p></a></div></div></section>
+<section class="content-section" id="blogs"><div class="wrap"><div class="section-head"><div class="kicker">Published Work</div><h2>Blogs &amp; <span>Blog Posts</span></h2><p>All blog links currently provided for the portfolio.</p></div><div class="cards"><article class="card"><a href="https://www.digitechindia.co/blog/google-spam-update-august-2026" rel="noopener" target="_blank"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&amp;fit=crop&amp;w=1000&amp;q=80')"></div><div class="card-body"><div class="tag">SEO / Search</div><h3>Google Spam Update August 2026: What It Means for Search</h3><p>View the published piece and read the full work.</p><span class="read">READ THE PIECE →</span></div></a></article><article class="card"><a href="https://www.digitechindia.co/blog/seo-aio-geo-aeo-sxo-differences-and-strategy" rel="noopener" target="_blank"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?auto=format&amp;fit=crop&amp;w=1000&amp;q=80')"></div><div class="card-body"><div class="tag">SEO / Strategy</div><h3>SEO, AIO, GEO, AEO &amp; SXO: Understanding the Differences</h3><p>View the published piece and read the full work.</p><span class="read">READ THE PIECE →</span></div></a></article><article class="card"><a href="https://www.digitechindia.co/blog/linkedin-content-formats-for-thought-leadership" rel="noopener" target="_blank"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1611944212129-29977ae1398c?auto=format&amp;fit=crop&amp;w=1000&amp;q=80')"></div><div class="card-body"><div class="tag">LinkedIn / Content</div><h3>LinkedIn Content Formats for Thought Leadership</h3><p>View the published piece and read the full work.</p><span class="read">READ THE PIECE →</span></div></a></article><article class="card"><a href="https://xcellerateglobal.com/top-5-european-countries-where-indian-students-can-study-for-free-or-at-low-cost-2025/" rel="noopener" target="_blank"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1521292270410-a8c4d716d518?auto=format&amp;fit=crop&amp;w=1000&amp;q=80')"></div><div class="card-body"><div class="tag">Study Abroad</div><h3>Top 5 European Countries Where Indian Students Can Study for Free or at Low Cost</h3><p>View the published piece and read the full work.</p><span class="read">READ THE PIECE →</span></div></a></article><article class="card"><a href="https://xcellerateglobal.com/stem-vs-non-stem-courses-in-the-usa-which-is-better/" rel="noopener" target="_blank"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&amp;fit=crop&amp;w=1000&amp;q=80')"></div><div class="card-body"><div class="tag">Education</div><h3>STEM vs Non-STEM Courses in the USA: Which Is Better?</h3><p>View the published piece and read the full work.</p><span class="read">READ THE PIECE →</span></div></a></article><article class="card"><a href="https://facepdf.com/blog/the-kite-runner-pdf-free-download-book" rel="noopener" target="_blank"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&amp;fit=crop&amp;w=1000&amp;q=80')"></div><div class="card-body"><div class="tag">Books / Culture</div><h3>The Kite Runner PDF: Free Download Book</h3><p>View the published piece and read the full work.</p><span class="read">READ THE PIECE →</span></div></a></article><article class="card"><a href="https://facepdf.com/blog/sukhmani-sahib-pdf-free-download" rel="noopener" target="_blank"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&amp;fit=crop&amp;w=1000&amp;q=80')"></div><div class="card-body"><div class="tag">Books / Culture</div><h3>Sukhmani Sahib PDF: Free Download</h3><p>View the published piece and read the full work.</p><span class="read">READ THE PIECE →</span></div></a></article><article class="card"><a href="https://www.enrichlabs.ai/blog/seo-marketing-for-small-business-2026-guide" rel="noopener" target="_blank"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&amp;fit=crop&amp;w=1000&amp;q=80')"></div><div class="card-body"><div class="tag">SEO / Small Business</div><h3>SEO Marketing for Small Business: 2026 Guide</h3><p>View the published piece and read the full work.</p><span class="read">READ THE PIECE →</span></div></a></article><article class="card"><a href="https://www.cloudmagazin.com/en/2026/02/28/cloud-trends-2026-what-it-decision-makers-must-have-on-their-radar-now/" rel="noopener" target="_blank"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&amp;fit=crop&amp;w=1000&amp;q=80')"></div><div class="card-body"><div class="tag">Cloud / Technology</div><h3>Cloud Trends 2026: What IT Decision-Makers Must Have on Their Radar</h3><p>View the published piece and read the full work.</p><span class="read">READ THE PIECE →</span></div></a></article><article class="card"><a href="https://qubstudio.com/blog/saas-growth-strategies/" rel="noopener" target="_blank"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&amp;fit=crop&amp;w=1000&amp;q=80')"></div><div class="card-body"><div class="tag">SaaS / Growth</div><h3>SaaS Growth Strategies</h3><p>View the published piece and read the full work.</p><span class="read">READ THE PIECE →</span></div></a></article><article class="card"><a href="https://proremedyphysio.com/can-a-chiropractor-fix-a-pinched-nerve/" rel="noopener" target="_blank"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&amp;fit=crop&amp;w=1000&amp;q=80')"></div><div class="card-body"><div class="tag">Health / Informational</div><h3>Can a Chiropractor Fix a Pinched Nerve?</h3><p>View the published piece and read the full work.</p><span class="read">READ THE PIECE →</span></div></a></article></div></div></section>
+<section class="content-section" id="web-content"><div class="wrap"><div class="section-head"><div class="kicker">Published Work</div><h2>Website <span>Content</span></h2><p>Service pages, company pages and website copy from the links provided.</p></div><div class="cards"><article class="card"><a href="https://www.digitechindia.co/services/youtube-management-services" rel="noopener" target="_blank"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&amp;fit=crop&amp;w=1000&amp;q=80')"></div><div class="card-body"><div class="tag">Service Page</div><h3>YouTube Management Services</h3><p>View the published piece and read the full work.</p><span class="read">READ THE PIECE →</span></div></a></article><article class="card"><a href="https://www.digitechindia.co/services/linkedin-management-services" rel="noopener" target="_blank"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1611944212129-29977ae1398c?auto=format&amp;fit=crop&amp;w=1000&amp;q=80')"></div><div class="card-body"><div class="tag">Service Page</div><h3>LinkedIn Management Services</h3><p>View the published piece and read the full work.</p><span class="read">READ THE PIECE →</span></div></a></article><article class="card"><a href="https://www.digitechindia.co/services/instagram-management-services" rel="noopener" target="_blank"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1611262588024-d12430b98920?auto=format&amp;fit=crop&amp;w=1000&amp;q=80')"></div><div class="card-body"><div class="tag">Service Page</div><h3>Instagram Management Services</h3><p>View the published piece and read the full work.</p><span class="read">READ THE PIECE →</span></div></a></article><article class="card"><a href="https://grandviewhomes.co/custom-home-building/" rel="noopener" target="_blank"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&amp;fit=crop&amp;w=1000&amp;q=80')"></div><div class="card-body"><div class="tag">Home Building</div><h3>Custom Home Building</h3><p>View the published piece and read the full work.</p><span class="read">READ THE PIECE →</span></div></a></article><article class="card"><a href="https://grandviewhomes.co/remodeling/" rel="noopener" target="_blank"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&amp;fit=crop&amp;w=1000&amp;q=80')"></div><div class="card-body"><div class="tag">Home Remodeling</div><h3>Remodeling</h3><p>View the published piece and read the full work.</p><span class="read">READ THE PIECE →</span></div></a></article><article class="card"><a href="https://grandviewhomes.co/general-contractors-colorado/" rel="noopener" target="_blank"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&amp;fit=crop&amp;w=1000&amp;q=80')"></div><div class="card-body"><div class="tag">Construction</div><h3>General Contractors Colorado</h3><p>View the published piece and read the full work.</p><span class="read">READ THE PIECE →</span></div></a></article><article class="card"><a href="https://xcellerateglobal.com/" rel="noopener" target="_blank"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&amp;fit=crop&amp;w=1000&amp;q=80')"></div><div class="card-body"><div class="tag">Study Abroad</div><h3>Xcellerate Global</h3><p>View the published piece and read the full work.</p><span class="read">READ THE PIECE →</span></div></a></article><article class="card"><a href="https://foxmowingqld.com.au/lawn-mowing-and-gardening-east-brisbane" rel="noopener" target="_blank"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&amp;fit=crop&amp;w=1000&amp;q=80')"></div><div class="card-body"><div class="tag">Local Service</div><h3>Lawn Mowing &amp; Gardening — East Brisbane</h3><p>View the published piece and read the full work.</p><span class="read">READ THE PIECE →</span></div></a></article><article class="card"><a href="https://www.espsofttech.com/" rel="noopener" target="_blank"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&amp;fit=crop&amp;w=1000&amp;q=80')"></div><div class="card-body"><div class="tag">Technology Company</div><h3>ESP Softtech</h3><p>View the published piece and read the full work.</p><span class="read">READ THE PIECE →</span></div></a></article><article class="card"><a href="https://stepmint.io/" rel="noopener" target="_blank"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&amp;fit=crop&amp;w=1000&amp;q=80')"></div><div class="card-body"><div class="tag">Web3 / Product</div><h3>StepMint</h3><p>View the published piece and read the full work.</p><span class="read">READ THE PIECE →</span></div></a></article><article class="card"><a href="https://mrmint.io/" rel="noopener" target="_blank"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&amp;fit=crop&amp;w=1000&amp;q=80')"></div><div class="card-body"><div class="tag">Web3 / Brand</div><h3>Mr Mint</h3><p>View the published piece and read the full work.</p><span class="read">READ THE PIECE →</span></div></a></article></div></div></section>
+<section class="content-section" id="technical"><div class="wrap"><div class="section-head"><div class="kicker">Selected Work</div><h2>Technical <span>Content</span></h2><p>A focused selection of technology, SaaS, cloud and product-related writing.</p></div><div class="cards"><article class="card"><a href="https://www.cloudmagazin.com/en/2026/02/28/cloud-trends-2026-what-it-decision-makers-must-have-on-their-radar-now/" rel="noopener" target="_blank"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&amp;fit=crop&amp;w=1000&amp;q=80')"></div><div class="card-body"><div class="tag">Cloud / Technology</div><h3>Cloud Trends 2026: What IT Decision-Makers Must Have on Their Radar</h3><p>View the published piece and read the full work.</p><span class="read">READ THE PIECE →</span></div></a></article><article class="card"><a href="https://qubstudio.com/blog/saas-growth-strategies/" rel="noopener" target="_blank"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&amp;fit=crop&amp;w=1000&amp;q=80')"></div><div class="card-body"><div class="tag">SaaS / Growth</div><h3>SaaS Growth Strategies</h3><p>View the published piece and read the full work.</p><span class="read">READ THE PIECE →</span></div></a></article><article class="card"><a href="https://www.espsofttech.com/" rel="noopener" target="_blank"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&amp;fit=crop&amp;w=1000&amp;q=80')"></div><div class="card-body"><div class="tag">Technology Company</div><h3>ESP Softtech</h3><p>View the published piece and read the full work.</p><span class="read">READ THE PIECE →</span></div></a></article></div></div></section>
+<section class="content-section" id="articles"><div class="wrap"><div class="section-head"><div class="kicker">Selected Work</div><h2>Articles &amp; <span>Informational Content</span></h2><p>Selected published pieces that show research, explanation and topic-focused writing.</p></div><div class="cards"><article class="card"><a href="https://xcellerateglobal.com/top-5-european-countries-where-indian-students-can-study-for-free-or-at-low-cost-2025/" rel="noopener" target="_blank"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1521292270410-a8c4d716d518?auto=format&amp;fit=crop&amp;w=1000&amp;q=80')"></div><div class="card-body"><div class="tag">Study Abroad</div><h3>Top 5 European Countries Where Indian Students Can Study for Free or at Low Cost</h3><p>View the published piece and read the full work.</p><span class="read">READ THE PIECE →</span></div></a></article><article class="card"><a <="" div="" href="https://xcellerateglobal.com/stem-vs-non-stem-courses-in-the-usa-which-is-better/" target="_blank"></a></article></div></div></section>
+<section class="content-section samples-section whitepaper-section" id="whitepapers">
+<div class="wrap">
+<div class="section-head">
+<div class="kicker">Selected Writing</div>
+<h2>White<span>papers</span></h2>
+<p>Long-form research and product documentation written for technology and Web3 projects.</p>
+</div>
+<div class="whitepaper-list">
+<article class="whitepaper-card">
+<div class="whitepaper-visual">
+<div class="paper-frame">
+<img alt="GTP Token White Paper cover" src="assets/gtp-cover.png"/>
+</div>
+<div class="paper-badge">WHITEPAPER</div>
+</div>
+<div class="whitepaper-copy">
+<div class="tag">WEB3 • CRYPTOCURRENCY</div>
+<h3>GTP Token<br/>White Paper</h3>
+<p class="wp-lead">A structured white paper covering the GTP Token's mission, tokenomics, revenue model, future use cases and roadmap.</p>
+<div class="wp-meta">
+<span><b>Focus</b> Tokenomics &amp; Strategy</span>
+<span><b>Format</b> Long-form PDF</span>
+</div>
+<a class="wp-button" href="whitepapers/GTP-Token-White-Paper.pdf" rel="noopener" target="_blank">
+            READ WHITEPAPER <span>↗</span>
+</a>
+</div>
+</article>
+<article class="whitepaper-card">
+<div class="whitepaper-visual">
+<div class="paper-frame">
+<img alt="Mr Mint Whitepaper cover" src="assets/mrmint-cover.png"/>
+</div>
+<div class="paper-badge">WHITEPAPER</div>
+</div>
+<div class="whitepaper-copy">
+<div class="tag">WEB3 • CRYPTO MINING</div>
+<h3>Mr Mint<br/>Whitepaper</h3>
+<p class="wp-lead">A long-form Web3 document covering the mining-backed token concept, MNT token, NFTs, Metaverse, allocation, roadmap and risk.</p>
+<div class="wp-meta">
+<span><b>Focus</b> Crypto &amp; Web3</span>
+<span><b>Format</b> Long-form PDF</span>
+</div>
+<a class="wp-button" href="whitepapers/Mr-Mint-Whitepaper.pdf" rel="noopener" target="_blank">
+            READ WHITEPAPER <span>↗</span>
+</a>
+</div>
+</article>
+</div>
+</div>
+</section>
+<section class="content-section samples-section academic-section" id="academic">
+<div class="wrap">
+<div class="section-head">
+<div class="kicker">Academic Portfolio</div>
+<h2>Academic <span>Content</span></h2>
+<p>Selected business reports, consultancy projects, strategy papers and management assignments.</p>
+</div>
+<div class="academic-grid">
+<article class="academic-card">
+<div class="academic-cover"><img alt="Volkswagen ID.3 Body Optimisation preview" src="assets/volkswagen-id3.png"/></div>
+<div class="academic-body">
+<div class="tag">Business Project • Automotive / EV</div>
+<h3>Volkswagen ID.3 Body Optimisation</h3>
+<p>A business project focused on reducing the Volkswagen ID.3 body weight by 50kg through structural redesign and lightweight materials, supported by PESTEL, WBS, scheduling, EVM and RACI.</p>
+<a class="read" download="VOLKSWAGEN ID.3 BODY OPTIMISATION.docx" href="academic/Volkswagen-ID3-Body-Optimisation.docx">OPEN SAMPLE →</a>
+</div>
+</article>
+<article class="academic-card">
+<div class="academic-cover"><img alt="Allianz: Current Strategies, Marketing Vision, and Future Plans preview" src="assets/allianz.png"/></div>
+<div class="academic-body">
+<div class="tag">Marketing Strategy • Financial Services</div>
+<h3>Allianz: Current Strategies, Marketing Vision, and Future Plans</h3>
+<p>An analysis of Allianz’s segmentation, targeting and positioning, marketing mix, digital channels and recommendations for future marketing improvement.</p>
+<a class="read" download="Allianz.docx" href="academic/Allianz-Current-Strategies-Marketing-Vision-and-Future-Plans.docx">OPEN SAMPLE →</a>
+</div>
+</article>
+<article class="academic-card">
+<div class="academic-cover"><img alt="Leadership and Business Environment — Sainsbury’s preview" src="assets/sainsburys.png"/></div>
+<div class="academic-body">
+<div class="tag">Business Environment • Retail</div>
+<h3>Leadership and Business Environment — Sainsbury’s</h3>
+<p>A case study examining Sainsbury’s external business environment through PESTEL analysis, alongside suitable and unsuitable leadership styles and a reflection report.</p>
+<a class="read" download="1702045382010_Overview of Sainsbury 123 (2).docx" href="academic/Sainsburys-Overview-and-Business-Environment.docx">OPEN SAMPLE →</a>
+</div>
+</article>
+<article class="academic-card">
+<div class="academic-cover"><img alt="Managing and Leading Organisational Change at GE Vernova preview" src="assets/ge-vernova.png"/></div>
+<div class="academic-body">
+<div class="tag">Change Management • Energy</div>
+<h3>Managing and Leading Organisational Change at GE Vernova</h3>
+<p>A change-management report covering AI, automation and robotics, lean operations, the Zero-Defect Framework, PEST, SWOT, Force-Field Analysis and a hybrid change approach.</p>
+<a class="read" download="MANAGING AND LEADING ORGANISATIONAL CHANGE AT GE VERNOVA.docx" href="academic/GE-Vernova-Managing-and-Leading-Organisational-Change.docx">OPEN SAMPLE →</a>
+</div>
+</article>
+<article class="academic-card">
+<div class="academic-cover"><img alt="Business Consultancy Report — Green Gold Limited preview" src="assets/green-gold-consultancy.png"/></div>
+<div class="academic-body">
+<div class="tag">Business Consultancy • Renewable Energy</div>
+<h3>Business Consultancy Report — Green Gold Limited</h3>
+<p>A consultancy report on Green Gold’s rDME expansion, covering the business environment, competitiveness, operations, technology, people, stakeholders, finance, PESTLE and Porter’s Five Forces.</p>
+<a class="read" download="Business Consultancy Report – Green Gold Limited.docx" href="academic/Green-Gold-Business-Consultancy-Report.docx">OPEN SAMPLE →</a>
+</div>
+</article>
+<article class="academic-card">
+<div class="academic-cover"><img alt="Green Gold Limited — Strategic Action Plan preview" src="assets/green-gold-action-plan.png"/></div>
+<div class="academic-body">
+<div class="tag">Strategic Action Plan • Consultancy</div>
+<h3>Green Gold Limited — Strategic Action Plan</h3>
+<p>A practical action plan built around commercial readiness, multi-supplier feedstock, customer pilot agreements and the actions needed to support Green Gold’s planned expansion.</p>
+<a class="read" download="Green Gold Limited – Strategic Action Plan (2).docx" href="academic/Green-Gold-Strategic-Action-Plan.docx">OPEN SAMPLE →</a>
+</div>
+</article>
+<article class="academic-card">
+<div class="academic-cover"><img alt="Strengthening Customer Engagement and Retention at Tesco plc preview" src="assets/tesco-loyalty.png"/></div>
+<div class="academic-body">
+<div class="tag">Consultancy Report • Digital Loyalty</div>
+<h3>Strengthening Customer Engagement and Retention at Tesco plc</h3>
+<p>A consultancy report examining Tesco Clubcard personalisation, customer trust, digital loyalty, PESTLE, Porter’s Five Forces, SWOT, ethics and three strategic recommendations.</p>
+<a class="read" download="Strengthening Customer Engagement and Retention at Tesco plc Through Responsible Personalised Digital Loyalty.docx" href="academic/Tesco-Responsible-Personalised-Digital-Loyalty.docx">OPEN SAMPLE →</a>
+</div>
+</article>
+</div>
+</div>
+</section>
+<section class="content-section" id="cases"><div class="wrap"><div class="section-head"><div class="kicker">Published Work</div><h2>Case <span>Studies</span></h2><p>Selected case studies from Digitech India and ESP Softtech.</p></div><div class="cards"><article class="card case"><a href="https://www.digitechindia.co/case-studies/halkwinds-google-ads-qualified-leads-results" rel="noopener" target="_blank"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&amp;fit=crop&amp;w=1000&amp;q=80')"></div><div class="card-body"><div class="tag">Google Ads / Lead Generation</div><h3>Halkwinds Google Ads — Qualified Leads Results</h3><p>View the published piece and read the full work.</p><span class="read">READ THE PIECE →</span></div></a></article><article class="card case"><a href="https://www.digitechindia.co/case-studies/digitech-india-delivers-record-breaking-roi-for-deen-square" rel="noopener" target="_blank"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&amp;fit=crop&amp;w=1000&amp;q=80')"></div><div class="card-body"><div class="tag">Performance Marketing</div><h3>Deen Square — Record-Breaking ROI</h3><p>View the published piece and read the full work.</p><span class="read">READ THE PIECE →</span></div></a></article><article class="card case"><a href="https://www.digitechindia.co/case-studies/digitech-india-drives-leads-for-beyond-studios" rel="noopener" target="_blank"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&amp;fit=crop&amp;w=1000&amp;q=80')"></div><div class="card-body"><div class="tag">Lead Generation</div><h3>Beyond Studios — Lead Generation</h3><p>View the published piece and read the full work.</p><span class="read">READ THE PIECE →</span></div></a></article><article class="card case"><a href="https://www.espsofttech.com/casestudy/infi-multichain-cdex-a-decentralized-trading-platform/" rel="noopener" target="_blank"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&amp;fit=crop&amp;w=1000&amp;q=80')"></div><div class="card-body"><div class="tag">Web3 / Product</div><h3>INFI MultiChain CDEX — Decentralized Trading Platform</h3><p>View the published piece and read the full work.</p><span class="read">READ THE PIECE →</span></div></a></article><article class="card case"><a href="https://www.espsofttech.com/casestudy/mansagold-a-gold-trading-platform/" rel="noopener" target="_blank"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&amp;fit=crop&amp;w=1000&amp;q=80')"></div><div class="card-body"><div class="tag">FinTech / Web3</div><h3>MansaGold — Gold Trading Platform</h3><p>View the published piece and read the full work.</p><span class="read">READ THE PIECE →</span></div></a></article><article class="card case"><a href="https://www.espsofttech.com/casestudy/stepmint-a-move-to-earn-concept/" rel="noopener" target="_blank"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&amp;fit=crop&amp;w=1000&amp;q=80')"></div><div class="card-body"><div class="tag">Web3 / Fitness</div><h3>StepMint — Move-to-Earn Concept</h3><p>View the published piece and read the full work.</p><span class="read">READ THE PIECE →</span></div></a></article></div></div></section>
+<section class="banner" id="contact"><div class="wrap"><h2>Have a project that needs the right words?</h2><p>Let’s talk about the content you need, the audience you want to reach and the work you want your content to do.</p><a class="btn" href="mailto:your@email.com">LET’S WORK TOGETHER →</a></div></section>
+</main>
+<footer><div class="wrap footer-grid"><div><h3>Logophile</h3><p>Vishesh — Content Writer. Blogs, web content, technical writing, articles, whitepapers, academic content and case studies.</p></div><div><h4>Portfolio</h4><div class="footer-links"><a href="#blogs">Blogs</a><a href="#web-content">Web Content</a><a href="#technical">Technical Content</a><a href="#articles">Articles</a><a href="#academic">Academic Content</a><a href="#cases">Case Studies</a></div></div><div><h4>Let’s Connect</h4><p><a href="mailto:your@email.com">your@email.com</a></p><p><a href="#">LinkedIn</a></p><p><a href="#">Instagram</a></p></div></div><div class="wrap copyright">Copyright © 2026 Logophile. All Rights Reserved.</div></footer>
+<script>const nav=document.querySelector('.links');document.querySelector('.menu').addEventListener('click',()=>nav.classList.toggle('mobile'));document.querySelectorAll('.links a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('mobile')));</script></body></html>
